@@ -1,0 +1,213 @@
+/************************ GLOBALES ******************************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/******************** SECTION HEADER ****************************/
+header {
+    background-color: #CE142A;
+    box-shadow: 10px 5px 5px #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+
+.header-logo h1 {
+    font-size: 1.6em;
+    color: white;
+    padding-left: 1em;
+}
+
+.header-logo p {
+    font-size: 1em;
+    color: white;
+    padding-left: 1.5em;
+}
+
+.header-nav li{
+    display: inline-block;
+    padding-right: 2em;
+}
+
+.header-nav a {
+    font-size: 1.6em;
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: #faa;
+}
+
+/************************* SECTION MAIN ***************************/
+main {
+    display: flex;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.a-side {
+    border-right: 2px #80353C solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.a-side_item {
+    width: 20em;
+    height: 10em;
+    background-color: #BC010E;
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 5px #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-side_item a {
+    width: 212.5px;
+    display: flex;
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+.a-side_item h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.sale {
+    border: 1px white solid;
+    width: 6em;
+    height: 6em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sale h1 {
+    color: white;
+    font-size: 1.6em;
+}
+
+.sale p {
+    color: white;
+    font-size: 1.6em;
+}
+
+.main-description {
+    padding-top: 1.6em;
+    padding-bottom: 6em;
+    padding-left: 1.0625em;
+}
+
+.main-description p {
+    font-size: 1.6em;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+}
+
+.product {
+    width: 225px;
+    height: 35em;
+    margin-right: 4em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px 2px #999;
+}
+
+.product a {
+    font-size: 1.6em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/************************* SECTION FOOTER ***************************/
+footer {
+    background-color: #CE142A;
+    display: flex;
+    justify-content: space-around;
+    height: 8em;
+}
+
+.redes {
+    display: flex;
+}
+
+.redes li {
+    display: inline-block;
+}
+
+.redes ul {
+    display: flex;
+    align-items: center;
+}
+
+.redes p {
+    color: white;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.redes a {
+    color: white;
+    font-size: 1.7em;
+    text-decoration: none;
+    padding-left: .6em;
+    font-family: monospace;
+}
+
+.redes a:hover {
+    color: #faa;
+}
+
+.pagos {
+    display: flex;
+    align-items: center;
+}
+
+.pagos p {
+    color: white;
+    font-size: 1em;
+}
+
+.pagos li {
+    display: inline-block;
+}
+
+.pagos a {
+    color: white;
+    font-size: 1.8em;
+    font-family: monospace;
+    text-decoration: none;
+    padding-left: .6em;
+}
+
+.pagos a:hover {
+    color: #faa;
+}
